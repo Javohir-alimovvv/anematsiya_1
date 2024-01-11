@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    background-size: cover;
+    background-image: url(../images/photo_2024-01-08_10-51-53.jpg);
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 10px;
+    position: absolute;
+    top: 65px;
+    left: 54px;
+    animation: card 12s infinite;
+}
+
+@keyframes card {
+    
+0% {
+        top: 65px;
+        left: 54px;
+    }
+10%{
+    top: 65px;
+    left: 280px;
+}
+20%{
+    top: 310px;
+    left: 280px;
+    background-color: brown;
+}
+30%{
+    top: 310px;
+    left: 840px;
+    background-color: aqua;
+}
+40%{
+    top: 436px;
+    left: 829px;
+    background-color: green;
+}
+50%{
+    top: 436px;
+    left: 515px;
+    background-color: gray;
+}
+60%{
+    top: 390px;
+    left: 515px;
+    background-color: blueviolet;
+}
+70%{
+    top: 388px;
+    left: 275px;
+    background-color: red;
+}
+80%{
+    top: 285px;
+    left: 140px;
+    background-color: gold;
+}
+90%{
+    top: 295px;
+    left: 50px;
+    background-color: chartreuse;
+}
+100%{
+    top: 65px;
+    left: 54px;
+    background-color: blue;
+}
+}
